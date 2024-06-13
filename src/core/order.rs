@@ -141,6 +141,9 @@ pub mod factory {
             }
             return TaskStatus::Succ;
         }
+        pub fn contains(&self, order_id: String) -> bool {
+            panic!("not implement")
+        }
     }
 
     enum TaskStatus {
